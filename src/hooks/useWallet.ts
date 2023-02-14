@@ -213,6 +213,7 @@ export default function useWallet(
     if (dataWC.account) {
       const balances = dataWC.account.balances;
       return balances;
+      
     }
   };
 
